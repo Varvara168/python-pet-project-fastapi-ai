@@ -42,7 +42,15 @@ python -m http.server 5500
 
 Открыть в браузере
 Frontend: http://localhost:5500
+
 API документация: http://localhost:8000/docs
+
 API эндпоинты: http://localhost:8000/api/requests
 
-### 1. Клонирование репозитория
+### Клонирование репозитория
+git remote add origin https://github.com/Varvara168/test.git
+
+git branch -M main
+
+git push -u origin main
+
