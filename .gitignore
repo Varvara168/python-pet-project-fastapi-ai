@@ -37,7 +37,6 @@ ngrok.yml
 .env
 .env.local
 .env.*.local
-config.py
 
 # Logs
 *.log
