@@ -1,0 +1,49 @@
+﻿# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+env/
+.python-version
+
+# Database
+*.db
+*.sqlite3
+clients.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Ngrok
+ngrok.exe
+*.ngrok
+ngrok.yml
+
+# Secrets
+.env
+.env.local
+.env.*.local
+config.py
+
+# Logs
+*.log
+logs/
+
+# Temp files
+*.tmp
+*.temp
+.temp/
