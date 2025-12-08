@@ -15,18 +15,18 @@
 - **Frontend**: HTML5, CSS3, Vanilla JavaScript
 - **Server**: Uvicorn ASGI сервер
 
-## 📦 Как запустить
-# Windows
+# 📦 Как запустить
+## Windows
 python -m venv venv
 venv\Scripts\activate
 
-# Linux/Mac
+## Linux/Mac
 python3 -m venv venv
 source venv/bin/activate
 
 pip install -r requirements.txt
 
-Получение API ключа
+## Получение API ключа
 Зарегистрируйтесь на OpenRouter.ai
 
 Создайте API ключ: https://openrouter.ai/settings/keys
@@ -34,20 +34,21 @@ pip install -r requirements.txt
 config.py
 api_key="ВАШ_КЛЮЧ_ЗДЕСЬ"  # ← ВСТАВЬТЕ СЮДА ВАШ КЛЮЧ
 
-# Терминал 1: Запуск API сервера
+## Запуск в командной строке 
+Терминал 1: Запуск API сервера
 uvicorn main:app --host 0.0.0.0 --port 8000 --reload
 
-# Терминал 2: Запуск фронтенда
+Терминал 2: Запуск фронтенда
 python -m http.server 5500
 
-Открыть в браузере
+## Открыть в браузере
 Frontend: http://localhost:5500
 
 API документация: http://localhost:8000/docs
 
 API эндпоинты: http://localhost:8000/api/requests
 
-### Клонирование репозитория
+# Клонирование репозитория
 git remote add origin https://github.com/Varvara168/test.git
 
 git branch -M main
