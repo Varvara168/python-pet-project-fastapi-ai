@@ -13,4 +13,4 @@ def answer_script(promt: str):
         max_tokens=500
     )
 
-    return response.choices[0].message.content #не пиши ебучий принт хуйня идея
+    return response.choices[0].message.content #принт не работает
